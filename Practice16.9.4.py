@@ -18,6 +18,7 @@ visitor_1 = MoreInfo("Иван", "Петров", "г.Москва", "Наста�
 visitor_2 = MoreInfo("Василий", "Огарев", "г.Уфа", "Студент")
 visitor_3 = MoreInfo("Аркадий", "Дубайло", "г.Москва", "Охранник")
 
-print(f"Список гостей: \n{visitor_1.getInfo()},"
-      f"\n{visitor_2.getInfo()},"
-      f"\n{visitor_3.getInfo()}")
+print("Список гостей:",
+      f"{visitor_1.getInfo()}",
+      f"{visitor_2.getInfo()}",
+      f"{visitor_3.getInfo()}", sep='\n')
